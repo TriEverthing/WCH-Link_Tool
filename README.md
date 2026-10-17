@@ -22,8 +22,10 @@
 
 ![WCH-LinkW-R0-1v1 S11图](./Images/plot_20261002_155505_568.png)
 
-&emsp;&emsp;下图是项目天线的仿真结果。
+&emsp;&emsp;本线项目天线的S11矩形图的仿真结果。
 
 ![优化天线的S11图](./Images/Snipaste_2026-10-14_10-58-45.png)
+
+&emsp;&emsp;本线项目天线的3D极坐标方向图的仿真结果。
 
 ![优化天线的方向图](./Images/Snipaste_2026-10-14_11-02-44.png)
