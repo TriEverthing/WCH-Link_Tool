@@ -10,7 +10,7 @@
 
 &emsp;&emsp;WCH-LinkW-R0-1v1是无线版本的Link工具，RISC-V和ARM的切换可以通过按键切换。无线使用CH32V208G的蓝牙功能实现，将两个WCH-LinkW-R0-1v1配对。
 
-&emsp;&emsp;WCH-LinkE-R0-1v3是所有Link中性能最强的，支持的芯片最多。特别低，其是唯一一个有带USB HS的。不过调试工具选用的MCU，即CH32V305芯片型号引脚较少，BOOT0功能默认0，导致其ISP功能不能使用。**制做这个工具需要使用其他Link工具烧录。**
+&emsp;&emsp;WCH-LinkE-R0-1v3是所有Link中性能最强的，支持的芯片最多。特别低，其是唯一一个有带USB HS的。WCH-LinkE-R0-1v3使用WCH-Link固件时，默认走的时USB FS接口。可通过WCHLinkEJtagUpdTool工具将WCH-LinkE-R0-1v3升级为高速JTAG模式。高速JTAG模式其实是将芯片模拟为CH347，所以变为高速JTAG模式时无法被WCH-LinkUtility识别。不过调试工具选用的MCU，即CH32V305芯片型号引脚较少，BOOT0功能默认0，导致其ISP功能不能使用。**制做这个工具需要使用其他Link工具烧录。**
 
 # WCH-LinkW-R0-1v1重新设计的天线
 
